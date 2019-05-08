@@ -151,6 +151,7 @@ header {
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-duration: 0.75s;
+    position: fixed; 
 
     ul {
         display: inline-block;
@@ -198,6 +199,7 @@ header {
     &.active {
         display: block;
     }
+
 }
 
 #mobile-menu-open {
@@ -538,7 +540,7 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
+    // vertical-align: top;
     margin-bottom: 30px;
 }
 
@@ -998,4 +1000,15 @@ footer {
         }
     }
 
+}
+#champ-list {
+    color: black;
+    font-family: Arial;
+}
+#champ-list li {
+    list-style-type: none;
+    color: #B0B0B0;
+}
+#champ-list ul li {
+    display: inline;
 }
